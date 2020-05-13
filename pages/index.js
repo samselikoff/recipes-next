@@ -3,7 +3,7 @@ import useSWR from "swr";
 import { AspectRatio } from "@ui";
 import Link from "next/link";
 
-const API = "http://samselikoff-recipes-backend.herokuapp.com/v1/graphql";
+const API = "https://samselikoff-recipes-backend.herokuapp.com/v1/graphql";
 const fetcher = (query) => request(API, query);
 
 export default function Home() {

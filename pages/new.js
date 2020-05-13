@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Formik } from "formik";
 import { request } from "graphql-request";
 
-const API = "http://samselikoff-recipes-backend.herokuapp.com/v1/graphql";
+const API = "https://samselikoff-recipes-backend.herokuapp.com/v1/graphql";
 const mutation = `
   mutation insert_articles($objects: [recipes_insert_input!]!) {
     insert_recipes(objects: $objects) {
