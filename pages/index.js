@@ -43,6 +43,8 @@ export default function Home() {
       <main className="p-4 mt-4">
         {!data ? (
           <p>Loading...</p>
+        ) : data.recipes.length === 0 ? (
+          <p>No recipes.</p>
         ) : (
           <div className="px-12 space-y-12">
             {data.recipes.map((recipe) => (

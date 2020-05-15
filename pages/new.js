@@ -56,8 +56,8 @@ export default function New() {
           >
             {({ values, handleChange, handleSubmit }) => (
               <form onSubmit={handleSubmit}>
-                <div className="mt-6 grid grid-cols-1 row-gap-6 col-gap-4 sm:grid-cols-6">
-                  <div className="sm:col-span-3">
+                <div className="mt-6 grid grid-cols-1 row-gap-6 col-gap-4 ">
+                  <div className="">
                     <label
                       htmlFor="name"
                       className="block text-sm font-medium leading-5 text-gray-700"
@@ -75,7 +75,7 @@ export default function New() {
                     </div>
                   </div>
 
-                  <div className="sm:col-span-3">
+                  <div className="">
                     <label
                       htmlFor="imageUrl"
                       className="block text-sm font-medium leading-5 text-gray-700"
@@ -93,7 +93,7 @@ export default function New() {
                     </div>
                   </div>
 
-                  <div className="sm:col-span-6">
+                  <div className="">
                     <label
                       htmlFor="ingredients"
                       className="block text-sm font-medium leading-5 text-gray-700"
@@ -112,7 +112,7 @@ export default function New() {
                     </div>
                   </div>
 
-                  <div className="sm:col-span-6">
+                  <div className="">
                     <label
                       htmlFor="instructions"
                       className="block text-sm font-medium leading-5 text-gray-700"
@@ -131,7 +131,7 @@ export default function New() {
                     </div>
                   </div>
 
-                  <div className="sm:col-span-3">
+                  <div className="">
                     <label
                       htmlFor="recipeUrl"
                       className="block text-sm font-medium leading-5 text-gray-700"
