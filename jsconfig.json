@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
+    "baseUrl": "node_modules",
     "paths": {
-      "@ui": ["components/ui/index"]
+      "@ui": ["../components/ui/index"]
     }
   }
 }

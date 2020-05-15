@@ -1,6 +1,6 @@
 import { buildSchema, graphql } from "graphql";
 import { Server, Model } from "miragejs";
-import serverSeeds from "./server-seeds";
+import recipes from "./recipes";
 
 // Construct a schema, using GraphQL schema language
 let graphqlSchema = buildSchema(`
@@ -56,7 +56,7 @@ export default function makeServer() {
       },
 
       seeds(server) {
-        server.db.loadData({ recipes: serverSeeds });
+        server.db.loadData({ recipes });
       },
 
       routes() {

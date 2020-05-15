@@ -1,6 +1,6 @@
 import "../styles/index.css";
 import Head from "next/head";
-import makeServer from "../server";
+import makeServer from "../mirage/server";
 
 makeServer();
 
