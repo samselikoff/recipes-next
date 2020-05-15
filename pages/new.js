@@ -49,7 +49,6 @@ export default function New() {
               recipeUrl: "",
             }}
             onSubmit={(values) => {
-              console.log({ values });
               const variables = { objects: [values] };
               request(API, mutation, variables);
             }}
